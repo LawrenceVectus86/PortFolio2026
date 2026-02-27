@@ -8,9 +8,9 @@ const Skills: React.FC = () => {
     { name: "React", icon: <Layout className="text-blue-400" />, category: "Frontend" },
     { name: "TypeScript", icon: <Code2 className="text-blue-500" />, category: "Frontend" },
     { name: "Tailwind", icon: <Layers className="text-teal-400" />, category: "Frontend" },
-    { name: "Three.js", icon: <Globe className="text-blue-300 dark:text-white" />, category: "Frontend" },
+    { name: "HTML", icon: <Globe className="text-blue-300 dark:text-white" />, category: "Frontend" },
     { name: "Node.js", icon: <Terminal className="text-green-500" />, category: "Backend" },
-    { name: "PostgreSQL", icon: <Database className="text-indigo-400" />, category: "Backend" },
+    { name: "MySQL", icon: <Database className="text-indigo-400" />, category: "Backend" },
     { name: "Figma", icon: <Figma className="text-purple-500" />, category: "Design" },
     { name: "System Design", icon: <Cpu className="text-orange-400" />, category: "Architecture" },
   ];

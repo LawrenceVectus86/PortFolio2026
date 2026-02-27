@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <p className="text-xs text-gray-500 uppercase font-bold tracking-widest mb-1">Email</p>
-                <p className="font-medium">hello@nexus-studio.io</p>
+                <p className="font-medium">Calvinlawrence98@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-6 group">
@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <p className="text-xs text-gray-500 uppercase font-bold tracking-widest mb-1">Based In</p>
-                <p className="font-medium">Tokyo, JP (Remote Worldwide)</p>
+                <p className="font-medium">Makassar, Sulawesi Selatan (Remote Worldwide)</p>
               </div>
             </div>
           </div>

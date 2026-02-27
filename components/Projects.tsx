@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                <a href={project.link} className="p-3 bg-white text-black rounded-full hover:bg-gray-200 transition-all">
+                <a href={project.link} target="_blank" className="p-3 bg-white text-black rounded-full hover:bg-gray-200 transition-all">
                   <ExternalLink size={20} />
                 </a>
                 <a href="#" className="p-3 bg-white text-black rounded-full hover:bg-gray-200 transition-all">

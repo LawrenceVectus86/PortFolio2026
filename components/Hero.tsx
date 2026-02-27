@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
+import { ChevronDown, ArrowRight, Github, Linkedin, Twitter, Instagram } from 'lucide-react';
 import IDCard3D from './IDCard3D';
 
 const Hero: React.FC = () => {
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl dark:text-gray-400 text-slate-600 mb-10 max-w-xl font-light leading-relaxed transition-colors duration-500"
           >
-            Senior Software Engineer at <b>Tech Global Corp</b>. 
+            Junior Software Engineer at <b>Tech Global Corp</b>. 
             I bridge the gap between complex engineering and pixel-perfect design.
           </motion.p>
 
@@ -57,9 +57,9 @@ const Hero: React.FC = () => {
             </button>
             
             <div className="flex items-center gap-6">
-              <a href="#" className="dark:text-gray-400 text-slate-500 hover:text-blue-500 dark:hover:text-white transition-colors"><Github size={20} /></a>
-              <a href="#" className="dark:text-gray-400 text-slate-500 hover:text-blue-500 dark:hover:text-white transition-colors"><Linkedin size={20} /></a>
-              <a href="#" className="dark:text-gray-400 text-slate-500 hover:text-blue-500 dark:hover:text-white transition-colors"><Twitter size={20} /></a>
+              <a href="https://github.com/LawrenceVectus86" target="_blank" className="dark:text-gray-400 text-slate-500 hover:text-blue-500 dark:hover:text-white transition-colors"><Github size={20} /></a>
+              <a href="https://www.linkedin.com/in/calvin-lawrence-983b53258/" target="_blank" className="dark:text-gray-400 text-slate-500 hover:text-blue-500 dark:hover:text-white transition-colors"><Linkedin size={20} /></a>
+              <a href="https://www.instagram.com/_lawrence_calvin_0418/" target="_blank" className="dark:text-gray-400 text-slate-500 hover:text-blue-500 dark:hover:text-white transition-colors"><Instagram size={20} /></a>
             </div>
           </motion.div>
         </div>

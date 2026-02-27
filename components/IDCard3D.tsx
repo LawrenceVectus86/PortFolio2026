@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { ShieldCheck, Cpu, MapPin, Sparkles } from 'lucide-react';
+import Profil from '../components/img/Profil.png';
 
 const IDCard3D: React.FC = () => {
   const x = useMotionValue(0);
@@ -77,7 +78,7 @@ const IDCard3D: React.FC = () => {
             <div className="w-28 h-28 rounded-full border-2 border-white/10 p-1">
               <div className="w-full h-full rounded-full overflow-hidden bg-gray-800">
                 <img 
-                  src="https://api.dicebear.com/7.x/avataaars/svg?seed=Calvin" 
+                  src={Profil} 
                   alt="Calvin Lawrence"
                   className="w-full h-full object-cover"
                 />
@@ -91,16 +92,16 @@ const IDCard3D: React.FC = () => {
           {/* Info */}
           <div className="text-center flex-1">
             <h1 className="text-xl font-black mb-1 tracking-tight">Calvin Lawrence</h1>
-            <p className="text-blue-400 text-[10px] font-bold uppercase tracking-[0.2em] mb-4">Senior Developer</p>
+            <p className="text-blue-400 text-[10px] font-bold uppercase tracking-[0.2em] mb-4">Junior Developer</p>
             
             <div className="space-y-3 inline-block text-left w-full mx-auto">
               <div className="flex items-center gap-2 text-gray-400">
                 <MapPin size={12} className="shrink-0" />
-                <span className="text-[10px]">Jakarta, ID</span>
+                <span className="text-[10px]">Makassar, ID</span>
               </div>
               <div className="flex items-center gap-2 text-gray-400">
                 <Sparkles size={12} className="shrink-0" />
-                <span className="text-[10px]">At <b>Tech Global Corp</b></span>
+                <span className="text-[10px]">At <b>Tech & Audio Visual Enthusiast</b></span>
               </div>
             </div>
           </div>

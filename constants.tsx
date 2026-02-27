@@ -1,30 +1,24 @@
 
 import { Project, Skill } from './types';
+import Gambar1 from "./components/img/p1.png";
+import Gambar2 from "./components/img/p2.png";
 
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: "Quantum Dashboard",
-    description: "A high-performance analytics platform with real-time data visualization and neural network integration.",
+    title: "PBPI Sulawesi Selatan",
+    description: "PBPI Sulsel adalah situs resmi Perkumpulan Besar Padel Indonesia – Pengprov Sulawesi Selatan, organisasi yang bertugas membina, mengembangkan, dan mempromosikan olahraga padel di wilayah Sulawesi Selatan.",
     tags: ["React", "TypeScript", "D3.js", "Tailwind"],
-    imageUrl: "https://picsum.photos/seed/dashboard/800/600",
-    link: "#"
+    imageUrl: Gambar1,
+    link: "https://pbpisulsel.id/"
   },
   {
     id: 2,
-    title: "EcoSphere AI",
-    description: "Environmental monitoring system using satellite imagery and machine learning to predict climate shifts.",
-    tags: ["Next.js", "Python", "TensorFlow", "Three.js"],
-    imageUrl: "https://picsum.photos/seed/eco/800/600",
-    link: "#"
-  },
-  {
-    id: 3,
-    title: "Lumina Marketplace",
-    description: "Digital asset marketplace focused on NFT art and high-fidelity 3D models with secure blockchain verification.",
-    tags: ["Solidity", "React", "Ethers.js", "Framer Motion"],
-    imageUrl: "https://picsum.photos/seed/market/800/600",
-    link: "#"
+    title: "Magang Start Up Design",
+    description: "Mempunyai Pengalaman Bekerja Remote Bersama Team Start Up di Jakarta Bernama Deborah Design",
+    tags: ["Next.js", "React"],
+    imageUrl: Gambar2,
+    link: "https://github.com/LawrenceVectus86/deborah-design"
   }
 ];
 
