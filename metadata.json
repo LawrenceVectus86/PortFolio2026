@@ -1,0 +1,8 @@
+{
+  "name": "Nexus Portfolio",
+  "description": "A cutting-edge 3D interactive portfolio with parallax effects, glassmorphism, and an integrated Gemini-powered AI assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
